@@ -14,3 +14,6 @@ in a different terminal use the following command to navigate to the project fol
 
 to run the model and initiate the publisher node:
 `python3 main.py`
+
+you can echo the topic to view what is being sent to the ESP32 using the following command:
+`ros2 topic echo /esp`
